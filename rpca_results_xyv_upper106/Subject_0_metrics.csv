@@ -1,0 +1,2 @@
+subject_idx,nrmse_train,nrmse_test,explained_energy,k,train_task_names,test_task_names
+0,0.02969098,0.02801896,0.95842598,7,carrying the bag | closing the cap | cutting food | drinking the water | flipping pages | folding cloths | opening door | opening the bottle cap | passing obj one hand to another | picking and placing object | placing obj | pouring water | putting paste to brush | rolling with dough pin | spraying | stacking book,stirring in cup | sweeping | tying shoe | writing with pen

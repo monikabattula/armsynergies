@@ -1,0 +1,61 @@
+subject_idx,task_name,task_split,nrmse
+0,carrying the bag,train,0.03386736
+0,carrying the bag2,train,0.03595893
+0,carrying the bag3,train,0.03363383
+0,closing the cap,train,0.02656458
+0,closing the cap2,train,0.02656458
+0,closing the cap3,train,0.02337214
+0,cutting food,train,0.02672133
+0,cutting food2,train,0.02324669
+0,cutting food3,train,0.03997756
+0,drinking the water,train,0.03289798
+0,drinking the water2,train,0.01926903
+0,drinking the water3,train,0.02177717
+0,flipping pages,train,0.02746188
+0,flipping pages2,train,0.03360516
+0,flipping pages3,train,0.03723975
+0,folding cloths,train,0.03817475
+0,folding cloths2,train,0.03720466
+0,folding cloths3,train,0.04261580
+0,opening door,train,0.02363328
+0,opening door2,train,0.04498392
+0,opening door3,train,0.05451780
+0,opening the bottle cap,train,0.03889352
+0,opening the bottle cap2,train,0.03354082
+0,opening the bottle cap3,train,0.02050768
+0,passing obj one hand to another,train,0.02095115
+0,passing obj one hand to another2,train,0.03183797
+0,passing obj one hand to another3,train,0.02500082
+0,picking and placing object,train,0.02371331
+0,picking and placing object2,train,0.01726317
+0,picking and placing object3,train,0.01970350
+0,placing obj,train,0.02371331
+0,placing obj2,train,0.01726317
+0,placing obj3,train,0.01970350
+0,pouring water,train,0.02390860
+0,pouring water2,train,0.02390860
+0,pouring water3,train,0.02622220
+0,putting paste to brush,train,0.03741781
+0,putting paste to brush2,train,0.02311626
+0,putting paste to brush3,train,0.01893597
+0,rolling with dough pin,train,0.02072108
+0,rolling with dough pin2,train,0.01915121
+0,rolling with dough pin3,train,0.02448742
+0,spraying,train,0.03204925
+0,spraying2,train,0.02257272
+0,spraying3,train,0.02543394
+0,stacking book,train,0.03587052
+0,stacking book2,train,0.03559598
+0,stacking book3,train,0.03452486
+0,stirring in cup,test,0.02820759
+0,stirring in cup2,test,0.03587705
+0,stirring in cup3,test,0.03270985
+0,sweeping,test,0.01921768
+0,sweeping2,test,0.02286992
+0,sweeping3,test,0.02952262
+0,tying shoe,test,0.03010998
+0,tying shoe2,test,0.02612394
+0,tying shoe3,test,0.03057909
+0,writing with pen,test,0.02976843
+0,writing with pen2,test,0.02728786
+0,writing with pen3,test,0.02153346

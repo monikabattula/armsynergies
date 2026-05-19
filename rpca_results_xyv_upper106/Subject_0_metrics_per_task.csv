@@ -1,0 +1,21 @@
+task_index,task_name,split,nrmse
+0,carrying the bag,train,0.03450527
+1,closing the cap,train,0.02553527
+2,cutting food,train,0.03081709
+3,drinking the water,train,0.02541936
+4,flipping pages,train,0.03303452
+5,folding cloths,train,0.03933831
+6,opening door,train,0.04281727
+7,opening the bottle cap,train,0.03167233
+8,passing obj one hand to another,train,0.02627698
+9,picking and placing object,train,0.02042629
+10,placing obj,train,0.02042629
+11,pouring water,train,0.02472161
+12,putting paste to brush,train,0.02786915
+13,rolling with dough pin,train,0.02158638
+14,spraying,train,0.02699291
+15,stacking book,train,0.03531524
+16,stirring in cup,test,0.03243506
+17,sweeping,test,0.02430643
+18,tying shoe,test,0.02897729
+19,writing with pen,test,0.02637286

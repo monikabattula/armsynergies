@@ -1,0 +1,7 @@
+opencv-python>=4.8
+numpy>=1.24
+matplotlib>=3.7
+mediapipe>=0.10.0
+pandas>=2.0.0
+certifi>=2024.0.0
+streamlit>=1.33
