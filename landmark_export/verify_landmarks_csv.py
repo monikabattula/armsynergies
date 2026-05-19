@@ -5,27 +5,16 @@ Verify exported landmark CSVs: structure + optional visual overlay on the source
 Structural checks
 -----------------
 - Expected columns (frame_id, timestamp_sec, landmark_type, landmark_id, x, y, z, visibility)
-- Rows per ``frame_id`` match the export: **75** (33 pose + 21 + 21) for full body, **50** (8 pose + 21 + 21) for upper-body
+- Rows per ``frame_id`` match the export: **50** (8 pose + 21 + 21) for upper-body
 - Pose / hand ``landmark_id`` sets match that mode; scope is inferred from the first frame that contains pose rows
 - x, y roughly in normalized image space (wide bounds; limbs often extend slightly past the frame)
 
-Visual check (recommended)
-----------------------------
-Overlays use **only** CSV rows for ``pose``, ``left_hand``, and ``right_hand`` (normalized x, y).
-Face keypoints are not drawn: for ``pose``, BlazePose indices **0–10** (nose/eyes/ears/mouth) are skipped; shoulders onward and both hands are drawn.
-
-- ``--out-video`` writes a full MP4 with those landmarks drawn on every frame (same length as the source video).
-- ``--out-dir`` saves a few sample PNGs (``--num-samples``).
 
 Usage
 -----
   python landmark_export/verify_landmarks_csv.py path/to/file_landmarks.csv
-  python landmark_export/verify_landmarks_csv.py out.csv --video same.mp4 --out-video verified.mp4 --num-samples 0
-  python landmark_export/verify_landmarks_csv.py out.csv --video same.mp4 --out-dir verify_pngs
-  python landmark_export/verify_landmarks_csv.py --csv path/to/file_landmarks.csv
 
-When using --video, pass the same ``--resize-width``, ``--min-inference-width``, ``--no-enhance-luma``,
-and ``--unsharp`` as for landmark extraction; landmarks are normalized to the *processed* frame.
+
 """
 
 from __future__ import annotations
