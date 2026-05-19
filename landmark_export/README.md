@@ -49,15 +49,6 @@ Use `start_frame` / `end_frame` to slice rows in `*_landmarks.csv` for each acti
 
 ## 3) Only the “task performing” window (recommended for many clips)
 
-Recordings often include **idle time** before/after the task. Export **only** the frames where the task happens using **either** frame indices **or** seconds.
-
-### One video
-
-```bash
-python extract_landmarks_from_video.py --video clip.mp4 --start-frame 120 --end-frame 480
-# or using seconds (uses the file’s FPS):
-python extract_landmarks_from_video.py --video clip.mp4 --start-sec 4.0 --end-sec 16.0
-```
 
 Output file name includes the window, e.g. `…_win_120_480_landmarks.csv`. Rows are **only** inside that range; `frame_index` is still the **original** index in the file.
 
