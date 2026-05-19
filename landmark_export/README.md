@@ -2,7 +2,7 @@
 
 **Separate from** the live webcam `main.py` — nothing here changes your recording app.
 
- **hand (and here also body) keypoints → tabular data**, but exports **CSV** with MediaPipe **Pose + Hands** (Tasks API) instead of their in-app logging keys.
+ **hand keypoints → tabular data**, exports **CSV** with MediaPipe **Pose + Hands** (Tasks API) instead of their in-app logging keys.
 
 ## Install (once)
 
