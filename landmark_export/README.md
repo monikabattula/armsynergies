@@ -25,29 +25,8 @@ Output (next to the video unless `--out-dir` is set):
 
 Columns include `frame_index`, `timestamp_ms`, then **pose** (33× x,y,z), **left_hand** (21×), **right_hand** (21×). Missing hands use empty cells.
 
-## 2) Same CSV + activity segments (keyboard shortcuts)
 
-While the video plays, mark **start** / **end** of an activity and a **numeric class label** (0–9):
-
-| Key | Action |
-|-----|--------|
-| `[` or `b` | **Start** of activity at current frame |
-| `]` or `e` | **End** of activity at current frame (writes one row to events file) |
-| `0`–`9` | **Class label** used when you press `]` / `e` |
-| `q` | Quit and save |
-
-```bash
-python extract_landmarks_from_video.py --video /path/to/clip.mp4 --annotate
-```
-
-Outputs:
-
-- `*_landmarks.csv` — same per-frame landmarks as mode (1)
-- `*_events.csv` — columns: `event_index`, `start_frame`, `end_frame`, `label`
-
-Use `start_frame` / `end_frame` to slice rows in `*_landmarks.csv` for each activity.
-
-## 3) Only the “task performing” window (recommended for many clips)
+## 2) Only the “task performing” window (recommended for many clips)
 
 
 Output file name includes the window, e.g. `…_win_120_480_landmarks.csv`. Rows are **only** inside that range; `frame_index` is still the **original** index in the file.
