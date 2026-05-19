@@ -2,7 +2,7 @@
 
 **Separate from** the live webcam `main.py` — nothing here changes your recording app.
 
-This folder follows the same idea as [kinivi/hand-gesture-recognition-mediapipe](https://github.com/kinivi/hand-gesture-recognition-mediapipe): **hand (and here also body) keypoints → tabular data**, but exports **CSV** with MediaPipe **Pose + Hands** (Tasks API) instead of their in-app logging keys.
+ **hand (and here also body) keypoints → tabular data**, but exports **CSV** with MediaPipe **Pose + Hands** (Tasks API) instead of their in-app logging keys.
 
 ## Install (once)
 
